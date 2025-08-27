@@ -1,0 +1,10 @@
+[
+  {
+    "id": "p1",
+    "name": "Produit 1",
+    "price": "99",
+    "price_display": "99",
+    "affiliateLink": "https://example.com/?aff=TON_TAG",
+    "image": "/assets/img/product1.jpg"
+  }
+]

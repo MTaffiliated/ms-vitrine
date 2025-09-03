@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>M&S Affiliated — Luxe & Tendances</title>
+  <meta name="description" content="Beauté, mode, accessoires — curations premium pour CAN/USA/EU.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="logo-wrap"><img src="assets/img/logo.svg" class="logo-img" alt="M&S Affiliated">
+      <div class="lang"><button data-lang="fr" class="active" onclick="setLang('fr')">FR</button><button data-lang="en" onclick="setLang('en')">EN</button></div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" data-i18n="nav_boutique">Accueil</a>
+      <a href="inspirations.html" data-i18n="nav_insp">Inspirations</a>
+      <a href="looks.html" data-i18n="nav_looks">Looks</a>
+      <a href="blog.html" data-i18n="nav_blog">Blog</a>
+      <a href="pages/about.html" data-i18n="nav_contact">À propos</a>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <img src="assets/img/hero/hero.svg" class="hero-banner" alt="Bannière">
+    <div class="hero-text">
+      <h1 data-i18n="hero_h1">Luxe & Tendances — Sélection internationale</h1>
+      <p class="lead" data-i18n="hero_p">Beauté, mode, accessoires : nos meilleures trouvailles CAN / USA / EU.</p>
+      <p><a class="cta" href="#boutique" data-i18n="btn_discover">Découvrir</a> <a class="cta" href="inspirations.html" data-i18n="btn_insp">Voir inspirations</a></p>
+    </div>
+  </section>
+
+  <main class="container" id="maincontent">
+    <section id="boutique" class="section">
+      <h2 class="section-title" data-i18n="shop_title">Produits en vedette</h2>
+      <p class="section-intro" data-i18n="shop_intro">Sélection premium mise à jour.</p>
+      <div id="grid" class="grid products" aria-live="polite"></div>
+    </section>
+
+    <section id="quiz" class="section">
+      <h2 class="section-title" data-i18n="quiz_title">Quiz express — Trouve ton style</h2>
+      <div class="card pad quiz" role="form" aria-label="Quiz produit">
+        <label class="small" data-i18n="quiz_label_want" for="pref">Je veux</label>
+        <select id="pref"><option value="beaute" data-i18n="quiz_beaute">Beauté</option><option value="mode" data-i18n="quiz_mode">Mode</option><option value="accessoires" data-i18n="quiz_acc">Accessoires</option></select>
+        <label class="small" data-i18n="quiz_skin" for="skin">Type de peau</label>
+        <select id="skin"><option value="normale">Normale</option><option value="seche">Sèche</option><option value="mixte">Mixte</option></select>
+        <button id="quiz-btn" class="cta" type="button" data-i18n="quiz_btn">Voir recommandations</button>
+        <div id="quiz-out" class="small" style="margin-left:12px"></div>
+      </div>
+    </section>
+
+    <section id="inspirations" class="section">
+      <h2 class="section-title" data-i18n="insp_title">Inspirations</h2>
+      <p class="section-intro" data-i18n="insp_intro">Des icônes & looks pour s'inspirer.</p>
+      <div id="inspiration-list" class="insp-grid-preview" aria-live="polite"></div>
+    </section>
+
+    <section id="looks" class="section">
+      <h2 class="section-title" data-i18n="looks_title">Looks & Mode</h2>
+      <div id="looks-row" class="row-scroll" aria-live="polite"></div>
+    </section>
+
+    <section id="blog" class="section">
+      <h2 class="section-title" data-i18n="blog_title">Blog & Guides</h2>
+      <div id="blog-row" class="blog-row" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer container" role="contentinfo">
+    <div data-i18n="footer_copy">© 2025 M&S Affiliated — Liens affiliés.</div>
+    <div class="social" aria-label="Réseaux sociaux">
+      <a href="https://www.instagram.com/msafiliated/" target="_blank" aria-label="Instagram">Instagram</a>
+      <a href="https://www.facebook.com/share/1CsrDmkgKC/?mibextid=wwXIfr" target="_blank" aria-label="Facebook">Facebook</a>
+      <a href="https://youtube.com/@msaffiliated" target="_blank" aria-label="YouTube">YouTube</a>
+      <a href="https://paypal.me/MSaffiliated" target="_blank" aria-label="PayPal">PayPal</a>
+    </div>
+  </footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

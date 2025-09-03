@@ -1,0 +1,62 @@
+[
+  {
+    "id": "b1",
+    "name": "OSEA Malibu — Protection Cream",
+    "brand": "OSEA Malibu",
+    "category": "Beauté",
+    "price": "65.00",
+    "price_display": "65.00",
+    "image": "assets/img/products/p1.svg",
+    "affiliateLink": "https://oseamalibu.com/?aff=TON_TAG"
+  },
+  {
+    "id": "b2",
+    "name": "Rhode — Pocket Blush",
+    "brand": "Rhode",
+    "category": "Beauté",
+    "price": "32.00",
+    "price_display": "32.00",
+    "image": "assets/img/products/p2.svg",
+    "affiliateLink": "https://rhodeskin.com/?aff=TON_TAG"
+  },
+  {
+    "id": "c1",
+    "name": "Robe d'été — Maison Élégance",
+    "brand": "Maison Élégance",
+    "category": "Mode",
+    "price": "149.00",
+    "price_display": "149.00",
+    "image": "assets/img/products/p3.svg",
+    "affiliateLink": "https://example.com/dress?aff=TON_TAG"
+  },
+  {
+    "id": "c2",
+    "name": "Pull de marque — Cachemire",
+    "brand": "Atelier Nord",
+    "category": "Mode",
+    "price": "199.00",
+    "price_display": "199.00",
+    "image": "assets/img/products/p4.svg",
+    "affiliateLink": "https://example.com/sweater?aff=TON_TAG"
+  },
+  {
+    "id": "a1",
+    "name": "Montre de luxe — Aurore",
+    "brand": "Aurore",
+    "category": "Accessoires",
+    "price": "1290.00",
+    "price_display": "1290.00",
+    "image": "assets/img/products/p5.svg",
+    "affiliateLink": "https://example.com/watch?aff=TON_TAG"
+  },
+  {
+    "id": "a2",
+    "name": "Sac chaîne — Lumière",
+    "brand": "Lumière",
+    "category": "Accessoires",
+    "price": "390.00",
+    "price_display": "390.00",
+    "image": "assets/img/products/p6.svg",
+    "affiliateLink": "https://example.com/bag?aff=TON_TAG"
+  }
+]
